@@ -75,3 +75,8 @@ comments99:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
+
+  akismet.enabled: true
+  akismet.author: "name"
+  akismet.authorEmail: "email"
+  akismet.content: "message"
